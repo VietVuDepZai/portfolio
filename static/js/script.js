@@ -20,12 +20,12 @@ for (var i=0; themeDots.length > i; i++){
 }
 
 function setTheme(mode){
-	if(mode == 'light'){
+	if(mode == 'blue'){
 		document.getElementById('theme-style').href = static + '/default.css'
 	}
 
-	if(mode == 'blue'){
-		document.getElementById('theme-style').href = static + '/blue.css'
+	if(mode == 'light'){
+		document.getElementById('theme-style').href = static + '/light.css'
 	}
 
 	if(mode == 'green'){
