@@ -92,11 +92,11 @@ WSGI_APPLICATION = 'dennisivy.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'railway',
-        'USER': 'postgres',
-        'PASSWORD': '6ABMwQ4stosKor7Nya1T',
-        'HOST': 'containers-us-west-47.railway.app',
-        'PORT': '5833',
+        'NAME': 'd2ouvjscpscueg',
+        'USER': 'hmluxvckzuzqpt',
+        'PASSWORD': '8104d2cf599f7dce3778bd00c75a9b880bd47706c263b7dc60ee184c4ffd9008',
+        'HOST': 'ec2-44-209-158-64.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
