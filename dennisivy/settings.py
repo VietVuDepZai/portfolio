@@ -91,11 +91,11 @@ WSGI_APPLICATION = 'dennisivy.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'd2ouvjscpscueg',
-        'USER': 'hmluxvckzuzqpt',
-        'PASSWORD': '8104d2cf599f7dce3778bd00c75a9b880bd47706c263b7dc60ee184c4ffd9008',
-        'HOST': 'ec2-44-209-158-64.compute-1.amazonaws.com',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'd590s67dqg9655',
+        'USER': 'bwjteopaykgysn',
+        'PASSWORD': 'a4e1f80a0769406225fa2006f9001f4e067421cf9b689292ff2bd273b4b88bc1',
+        'HOST': 'ec2-44-206-137-96.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
