@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'base.apps.BaseConfig',
-
+'crispy_bootstrap4',
     'crispy_forms',
     'django_filters',
     'ckeditor',
@@ -92,10 +92,10 @@ WSGI_APPLICATION = 'dennisivy.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'd590s67dqg9655',
-        'USER': 'bwjteopaykgysn',
-        'PASSWORD': 'a4e1f80a0769406225fa2006f9001f4e067421cf9b689292ff2bd273b4b88bc1',
-        'HOST': 'ec2-44-206-137-96.compute-1.amazonaws.com',
+        'NAME': 'ptfyuhai',
+        'USER': 'ptfyuhai',
+        'PASSWORD': 'jj_OM-swtcUrFerbEL_3pX25vUBXYf9S',
+        'HOST': 'rain.db.elephantsql.com',
         'PORT': '5432',
     }
 }

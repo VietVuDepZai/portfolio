@@ -30,7 +30,6 @@ body *{
 
 h1, h2, h3, h4, h5, h6, strong{
 	color: var(--mainText);
-	font-family: 'Russo One', sans-serif;
 	font-weight: 500;
 }
 
@@ -53,7 +52,7 @@ h2 { font-size: 36px;}
 h3 { font-size: 28px;}
 h4 { font-size: 24px;}
 h5 { font-size: 20px;}
-h6 { font-size: 16px;}
+h6 { font-size: 15px;}
 
 
 .s1{
@@ -392,13 +391,16 @@ h6 { font-size: 16px;}
 	background-color: #fff;
 	padding:15px;
 }
-
-.post-title{
-	color:black;
-	margin: 0;
+.post-title {
+    max-height: 38px;
+    overflow: hidden;
+    color: black;
+    margin: 0;
 }
 
 .post-intro{
+	overflow: hidden;
+    max-height: 44px;
 	color:#4b5156;
 	font-size: 14px;
 }

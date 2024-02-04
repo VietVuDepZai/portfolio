@@ -3,7 +3,7 @@
 <html>
 <head>
 	<title>Steven(VuViet)</title>
-
+	
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-47692315-56"></script>
 	<script>
@@ -24,6 +24,13 @@
 
 	<link rel="stylesheet" type="text/css" href="{% static 'css/default.css' %}">
 	<link id="theme-style" rel="stylesheet" type="text/css" href="">
+	<style>
+		body {
+			
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+
+		}
+	</style>
 </head>
 <body>
 
@@ -88,7 +95,7 @@
 
 					<div id="skills">
 						<ul>
-							<li>Python</li>
+							<li><img src="" alt="">Python</li>
 							<li>Django</li>
 							<li>JavaScript</li>
 						</ul>
@@ -126,8 +133,9 @@
 					<div class="post">
 						<img class="thumbnail" src="{{post.thumbnail.url}}">
 						<div class="post-preview">
-							<h6 class="post-title">{{post.headline}}</h6>
-							<p class="post-intro">{{post.sub_headline}}</p>
+							<h6 style="max-height: 40px;" class="post-title">{{post.headline}}</h6>
+							<p class="post-intro" style="
+							max-height: 41px;">{{post.sub_headline}}</p>
 							<a href="{%  url 'post' post.slug %}">Read More</a>
 						</div>
 					</div>
